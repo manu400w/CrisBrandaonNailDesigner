@@ -14,7 +14,7 @@ body {
   color: #333333;
   background-color: #FFFFFF;
   line-height: 1.6;
-  padding-top: 70px;
+  padding-top: 60px;
 }
 
 /* conteudo principal com margem de 15% */
@@ -43,13 +43,13 @@ header.menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  padding: 0.8rem 0;
   margin: 0 5%;
 }
 
 /* logo */
 header img {
-  height: 70px;
+  height: 60px;
   cursor: pointer;
 
 }
@@ -58,7 +58,7 @@ header img {
 .nav-menu {
   list-style: none;
   display: flex;
-  gap: 3rem;
+  gap: 1.2rem;
   margin: 0;
   padding: 0;
 }
@@ -68,7 +68,7 @@ header img {
   text-decoration: none;
   color: #b87868;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1rem;
   transition: color 0.3s;
 }
 
@@ -104,11 +104,10 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff;
   text-align: center;
   padding: 160px 20px;
   border-radius: 20px;
-  margin-top: 8rem;
+  margin-top: 5rem;
   height: 150px;
 }
 
@@ -118,7 +117,7 @@ h2 {
   border: none;
   padding: 15px 20px;
   border-radius: 15px;
-  color: #fff;
+  color: #ffff;
   font-size: 1.2em;
   cursor: pointer;
   transition: 0.3s;
@@ -314,6 +313,18 @@ h2 {
   padding-bottom: 9px;
 }
 
+/* depoimentos controls */
+.depoimentos-wrap { display:flex; align-items:center; justify-content:center; gap:10px; }
+.depo-prev, .depo-next { background: rgba(255,255,255,0.8); border: none; padding: 10px 12px; border-radius: 6px; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+.depo-prev:hover, .depo-next:hover { background: rgba(255,255,255,1); }
+.depo-dots { display:flex; gap:8px; justify-content:center; margin-top: 12px; }
+.depo-dot { width:10px; height:10px; border-radius:50%; background:#e0c6c6; border:none; cursor:pointer; padding:0; }
+.depo-dot.active { background:#b87868; }
+
+/* ensure carousel hides scrollbar nicely */
+.carrossel { scrollbar-width: none; -ms-overflow-style: none; }
+.carrossel::-webkit-scrollbar { display: none; }
+
 .slide {
   flex: 0 0 auto;
   scroll-snap-align: center;
@@ -380,7 +391,64 @@ footer {
   font-size: 0.9em;
   color: #333;
   border-top: 2px solid #D4A5A5;
-} 
+}
+
+.footer-box {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background: linear-gradient(180deg, rgba(255, 237, 242, 0.95) 0%, rgba(250, 218, 221, 0.95) 100%);
+  border-radius: 22px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.footer-box p {
+  margin: 10px 0;
+  color: #4f2e33;
+}
+
+.footer-box p:first-child {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.footer-box p:nth-child(2) {
+  font-size: 1rem;
+  color: #7a4f56;
+}
+
+.footer-links,
+.footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 18px 0;
+}
+
+.footer-links span,
+.footer-contact span {
+  font-size: 0.95rem;
+  color: #5c3b40;
+}
+
+.footer-links span {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.footer-contact span {
+  background: rgba(255, 255, 255, 0.65);
+  padding: 10px 14px;
+  border-radius: 999px;
+}
+
+.footer-box small,
+.footer-box p:last-child {
+  font-size: 0.85rem;
+  color: #664348;
+}
 
 /*PÁGINA SOBRE */
 /*  para colocar a foto e o texto lado a lado */
