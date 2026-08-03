@@ -50,10 +50,9 @@ https://manu400w.github.io/Nail-Designer-Portfolio/
 
 > **Desktop**
 
-*(Add a screenshot or GIF here.)*
-
-![Desktop Preview](<img width="1891" height="1065" alt="Preview-website" src="https://github.com/user-attachments/assets/1db7f15d-5716-4d1e-aca0-993d96084a55" />
-)
+<p align="center">
+  <img src="assets/images/Preview-website.png" alt="Nail Designer Portfolio Preview" width="900">
+</p>
 
 ---
 
