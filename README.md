@@ -1,17 +1,59 @@
-# 💅 Cris Brandão Nail Designer
+<h1 align="center">💅 Nail Designer Portfolio</h1>
 
-A responsive institutional website developed to strengthen the online presence of a nail designer by presenting services, portfolio, and contact information in a modern, intuitive, and user-friendly way.
+<p align="center">
+A modern, responsive institutional website developed to strengthen the online presence of a professional nail designer.
+</p>
 
-> **Project Type:** Academic Project / Portfolio
-> **Status:** Completed
+<p align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-blue?style=for-the-badge)
+
+</p>
 
 ---
 
 # 📖 Overview
 
-This project was developed to simulate a real client website, focusing on creating a professional digital presence for a beauty professional.
+This project was developed for **Cris Brandão**, a professional nail designer, with the goal of creating a modern and responsive website to strengthen her digital presence and showcase her services.
 
-The main goal was to design a clean, responsive, and visually appealing website capable of showcasing services, building credibility, and making it easy for potential clients to get in touch.
+The website was designed with a strong focus on usability, clean visual design, responsiveness, and intuitive navigation, allowing potential clients to easily explore the professional's work and contact information.
+
+---
+
+# 🎯 Project Information
+
+| Information | Details |
+|--------------|---------|
+| **Project** | Nail Designer Portfolio |
+| **Type** | Front-End Web Development |
+| **Client** | Cris Brandão |
+| **Status** | Completed |
+| **Role** | Front-End Developer |
+| **Technologies** | HTML5, CSS3, JavaScript |
+| **Responsive** | ✅ Yes |
+
+---
+
+# 🚀 Live Demo
+
+🔗 **Website**
+
+https://manu400w.github.io/Nail-Designer-Portfolio/
+
+---
+
+# 📸 Preview
+
+> **Desktop**
+
+*(Add a screenshot or GIF here.)*
+
+![Desktop Preview](<img width="1891" height="1065" alt="Preview-website" src="https://github.com/user-attachments/assets/1db7f15d-5716-4d1e-aca0-993d96084a55" />
+)
 
 ---
 
@@ -19,134 +61,140 @@ The main goal was to design a clean, responsive, and visually appealing website 
 
 Many independent beauty professionals rely exclusively on social media to promote their work.
 
-The challenge of this project was to design a website that could:
+The challenge of this project was to develop a professional website capable of:
 
-* Present the professional and her services.
-* Display previous work in an organized way.
-* Offer an intuitive navigation experience.
-* Work properly on desktop, tablet, and mobile devices.
-* Create a more professional online identity.
+- Presenting the professional and her services.
+- Organizing portfolio images.
+- Increasing credibility.
+- Offering intuitive navigation.
+- Improving the user experience across different devices.
 
 ---
 
 # 💡 The Solution
 
-A responsive landing page was developed with a modern interface focused on usability and visual organization.
+A responsive multi-page website was developed with a modern interface focused on usability and visual organization.
 
-The website includes:
+The project includes:
 
-* Home section
-* About section
-* Services section
-* Portfolio / Gallery
-* Contact information
-* Responsive layout
+- Home page
+- About page
+- Services page
+- Gallery page
+- Contact page
+- Responsive navigation
+- Professional visual identity
 
 ---
 
 # ✨ Features
 
-* Responsive Design
-* Smooth Navigation
-* Modern Layout
-* Organized Information Architecture
-* Mobile Friendly
-* Clean User Interface
+- ✅ Responsive Design
+- ✅ Multi-page Navigation
+- ✅ Modern User Interface
+- ✅ Organized Information Architecture
+- ✅ Portfolio Gallery
+- ✅ Contact Information
+- ✅ Mobile-Friendly Layout
+- ✅ Clean Code Structure
 
 ---
 
 # 🛠 Technologies
 
-* HTML5
-* CSS3
-* JavaScript
-* Git
-* GitHub
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
 
 ---
 
 # 📂 Project Structure
 
 ```text
-├── css/
-├── js/
-├── assets/
-│   ├── images/
-│   └── icons/
+📦 Nail-Designer-Portfolio
+│
+├── assets
+│   └── images
+│       ├── depoimentos
+│       ├── galeria
+│       ├── home
+│       ├── services
+│       └── shared
+│
+├── css
+│
+├── js
+│
+├── contato.html
+├── galeria.html
 ├── index.html
+├── servicos.html
+├── sobre.html
+│
 └── README.md
 ```
 
 ---
 
-# 📷 Screenshots
+# 📱 Responsive Design
 
-## Home
+The website was designed to provide an excellent browsing experience across different screen sizes.
 
-> *(Add a screenshot here)*
-
-## Services
-
-> *(Add a screenshot here)*
-
-## Portfolio
-
-> *(Add a screenshot here)*
-
-## Contact
-
-> *(Add a screenshot here)*
+- 💻 Desktop
+- 📱 Mobile
+- 📲 Tablet
 
 ---
 
-# 🚀 Live Demo
+# 🎨 Design Principles
 
-If available, access the project here:
+The interface was designed following modern UI and UX principles:
 
-**GitHub Pages:**
-`https://manu400w.github.io/CrisBrandaonNailDesigner/`
-
-*(Update the link after publishing.)*
+- Simplicity
+- Consistency
+- Visual hierarchy
+- Readability
+- Accessibility
+- Responsive Design
 
 ---
 
-# ⚙️ Running Locally
+# 📈 Project Highlights
 
-Clone the repository:
-
-```bash
-git clone https://github.com/manu400w/CrisBrandaonNailDesigner.git
-```
-
-Open the `index.html` file in your browser.
+- Responsive multi-page website
+- Organized folder structure
+- Semantic HTML
+- Modular CSS
+- Vanilla JavaScript
+- Clean visual identity
+- Easy navigation
+- Mobile-first approach
 
 ---
 
 # 📚 What I Learned
 
-During the development of this project, I improved my skills in:
+Developing this project allowed me to strengthen several front-end development skills, including semantic HTML structuring, responsive layouts with CSS, JavaScript DOM manipulation, and project organization.
 
-* Semantic HTML
-* Responsive Web Design
-* CSS Layout Techniques
-* JavaScript DOM Manipulation
-* Project Organization
-* Version Control using Git and GitHub
+I also improved my understanding of version control using Git and GitHub while applying good development practices to create a maintainable and scalable codebase.
 
 ---
 
 # 🚀 Future Improvements
 
-Some ideas for future versions include:
+Possible future enhancements include:
 
-* Online appointment scheduling
-* WhatsApp integration
-* Customer testimonials
-* Dark mode
-* SEO optimization
-* Performance improvements
-* Accessibility enhancements
-* Image optimization
+- Appointment scheduling
+- WhatsApp integration
+- Contact form with EmailJS
+- Customer testimonials carousel
+- Dark mode
+- SEO optimization
+- Performance improvements
+- Accessibility enhancements
+- Image optimization
 
 ---
 
@@ -154,20 +202,33 @@ Some ideas for future versions include:
 
 **Emanuele Santos Felix da Fonseca**
 
-Computer Science Student — Universidade Católica de Brasília (UCB)
+Computer Science Student  
+Universidade Católica de Brasília (UCB)
 
-📧 Email: [emanuelefonseca.cs@gmail.com](mailto:emanuelefonseca.cs@gmail.com)
+📧 **Email**
 
-💼 LinkedIn: https://www.linkedin.com/in/emanuele-fonseca
+emanuelefonseca.cs@gmail.com
 
-🐙 GitHub: https://github.com/manu400w
+💼 **LinkedIn**
+
+https://www.linkedin.com/in/emanuele-fonseca
+
+🐙 **GitHub**
+
+https://github.com/manu400w
+
+---
+
+# 📄 License
+
+This project is available for educational and portfolio purposes.
 
 ---
 
 # ⭐ About This Project
 
-This project was developed as part of my learning journey in Web Development.
+This project was developed as part of my learning journey in Web Development
 
-Besides improving my technical skills with HTML, CSS, and JavaScript, it helped me better understand how to build user-focused interfaces and organize a project following good development practices.
+Beyond practicing HTML, CSS, and JavaScript, it also helped me improve my understanding of user-centered interface design, project organization, and version control with Git and GitHub.
 
-I continue improving my projects as I learn new technologies and software engineering concepts.
+I continuously improve my projects as I learn new technologies and software engineering concepts.
